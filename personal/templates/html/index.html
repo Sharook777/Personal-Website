@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+
+<html lang="en">
+
+<!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Its a personal website">
+    <meta name="keywords" content="sharook ">
+    <meta name="author" content="Sharook">
+
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+
+    <title> Isharooksrk </title>
+	
+	{% load static %}	
+
+    <!--REQUIRED STYLE SHEETS-->
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="{% static 'assets/css/bootstrap.css' %}" rel="stylesheet" />
+
+    <!-- FONTAWESOME STYLE CSS -->
+    <link href="{% static 'assets/css/font-awesome.min.css' %}" rel="stylesheet" />
+
+    <!-- VEGAS STYLE CSS -->
+    <link href="{% static 'assets//vegas/jquery.vegas.min.css' %}" rel="stylesheet" />
+
+    <!-- CUSTOM STYLE CSS -->
+    <link href="{% static 'assets/css/style.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/style1.css' %}" rel="stylesheet" />
+
+     <!-- GOOGLE FONT -->
+     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+
+    <style>
+       #id1{color: black }
+    </style>
+
+
+    </head>
+
+
+
+<body>
+   
+
+	<!--Header section  -->
+
+	<div class="container" id="home">
+        <div class="row text-top">
+	<div class="col-md-12" >
+		<h1>  <br> </h1>
+		<h1> <br>  </h1>
+           	<h1 id = id1><font face="AR BERKLEY"> Sharook  A </font></h1>
+      	   	<p class="head-last" id = "id1"><b>Web developer | Programmer</b></p>     
+          
+        </div>
+        </div>
+      	</div>
+    	<!--End Header section  -->
+
+
+
+	<!-- Menu -->
+	
+	<nav class="menu" id="theMenu">
+	<div class="menu-wrap">
+		<h1 class="logo"><a href="index.html#home">SHAROOK</a></h1>
+		<i class="fa fa-times menu-close"></i>
+		<a href="#home" class="smoothScroll">Home</a>
+		<a href="#about" class="smoothScroll">About</a>
+		<a href="#contact" class="smoothScroll">Contact</a>
+		<a href="http://facebook.com/sharook.srk.9/"><i class="fa fa-facebook"></i></a>
+		<a href="#"><i class="fa fa-twitter"></i></a>
+		<a href="#"><i class="fa fa-dribbble"></i></a>
+		<a href="#"><i class="fa fa-envelope"></i></a>
+	</div>
+
+	<div id="menuToggle">
+		<b class="fa fa-bars"></b>
+	</div>
+	
+	</nav>
+
+
+
+ 	<!--About Section-->
+	<section class="for-full-back color-light" id="about"  >
+   	<div class="container" >
+        <div class="row text-left g-pad-bottom" >
+                <div class="col-md-12">
+                    	<h2> Developer </h2>
+			<p><strong> Hey,<br>
+                         I am sharook. I completed Btech in Computer Science and Engineering. 
+			 As my branch is CS so I am making myself perfect<br> in programming.
+			 I am also a web developer. This is my first website developed
+			 using bootstrap and django frameworks. <br>I'm also interested in game development
+			 , but now I focus on developing websites and softwares. I f you want to look<br> at
+			 my works <a href="https://github.com/Sharook777/">goto</a> my github repository.
+                         </strong>
+                    	</p>
+                </div>
+	</section>
+
+
+	<section class="for-full-back color-dark">
+   	<div class="container" >	
+	<div class="row text-center" >
+	<div class="col-md-14 g-pad-bottom" >
+        
+        	<div class="col-md-4">
+	        	<ul class="plan">
+	                    <li class="plan-head">EDUCATION</li>
+	                    <li class="main-price">B TECH</li>
+	                    <li><strong> Computer Science and Engineering </strong></li>
+	                    <li><strong> Calicut University </strong></li>
+                            <li><strong> Graduated 2016 </strong></li>
+	                </ul>
+	        </div>
+		
+		<div class="col-md-4">
+	                <ul class="plan">
+	                    <li class="plan-head">SKILLS</li>
+	                    <li class="main-price">JAVA PYTHON & C </li>
+	                    <li><strong> WEB: HTML CSS </strong></li>
+	                    <li><strong> DATABASE: MYSQL SQLITE</strong></li>
+                            <li><strong> FRAMEWORK: DJANGO </strong></li>
+	                </ul>
+	         </div>
+
+       	</div>
+	</section>
+    	<!--End About Section-->
+
+
+
+
+	
+	<! -- ABOUT SEPARATOR -->
+	<div class="home-sep" data-stellar-background-ratio="0.5">
+		<!-- TESTIMONIAL SECTION-->
+    	<section id="testimonial" >
+          <div class="container">
+    	  <div class="row ">
+            <div class="col-md-12">
+                <div id="carousel-example" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example" data-slide-to="0" class=""></li>
+                        <li data-target="#carousel-example" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel-example" data-slide-to="2" class=""></li>
+			<li data-target="#carousel-example" data-slide-to="3" class=""></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item">
+                            <div class="container center">
+                                <div class="slide-custom">
+                                   
+                                    <h3><i class="fa fa-quote-left"></i>
+                                         Talk is cheap. Show me the code.
+                                        <i class="fa fa-quote-right"></i><br> -Linus Torvalds</h3>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item active left">
+                            <div class="container center">
+                                <div class=" slide-custom">
+                                    <h3><i class="fa fa-quote-left"></i> EveryOne should know how to program a computer, because it teaches you how to think! <i class="fa fa-quote-right"></i>
+					<br> -Steve Jobs</h3>
+                                </div>
+                            </div>
+                        </div>
+			<div class="item active left">
+                            <div class="container center">
+                                <div class=" slide-custom">
+                                    <h3><i class="fa fa-quote-left"></i> Measuring programming program by lines of code is like measuring aircraft building by weight  <i class="fa fa-quote-right"></i>
+					<br> -Bill Gates</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item next left">
+                            <div class="container center">
+                                <div class="slide-custom">
+                                    <h3><i class="fa fa-quote-left"></i> Anyone who never made a mistake has never tried anything new  <i class="fa fa-quote-right"></i>
+					<br> -Albert Einstein</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		</section>
+            </div>
+
+<!------------------------>
+
+
+    <!-- About Team Section -->  
+       <section class="for-full-back color-light" id="about-team"  >
+   <div class="container" >
+      
+            <div class="row text-center" >
+                <div class="col-md-8 col-md-offset-2 ">
+                    <h1>Who We Are ?</h1>
+                    <h4>
+                        <strong>
+                       Time to Find
+                            </strong>
+                    </h4>
+                </div>
+                
+            </div>
+        
+</section>
+
+<!---------------------------------------------------------->
+
+
+
+	<section class="for-full-back color-white " id="services-sec"  >
+	<div class="container" >
+	
+	<!-- Add Google Maps -->
+	<div id="googleMap" style="height:400px;filter:grayscale(90%);-webkit-filter:grayscale(90%);"></div>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
+	<script>
+		var myCenter = new google.maps.LatLng(10.6942184, 76.4407254);
+    
+		function initialize() {
+    			var mapProp = {
+    			center: myCenter,
+    			zoom: 12,
+    			scrollwheel: false,
+    			draggable: false,
+    			mapTypeId: google.maps.MapTypeId.ROADMAP
+			};
+    
+			var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    
+			var marker = new google.maps.Marker({position: myCenter,});
+    
+			marker.setMap(map);
+		}
+    
+		google.maps.event.addDomListener(window, 'load', initialize);
+
+	</script>
+
+
+	<h4><b><i> Address: Palakakd, Kerala </i></b></p>        
+
+	</div>
+	</section>
+
+
+
+	<!-- Contact Section -->  
+	<section class="for-full-back color-light " id="contact"  >
+		<div class="container" >      
+   
+			<div class="row" >
+			<div class="col-md-5 contact-cls" >
+				<h3> Contact Details </h3>
+				<div >
+				     <span><i class="fa fa-home"> </i> Address: Palakkad, Kerala</span>
+                        <br />
+				     <span><i class="fa fa-phone"> </i> Phone: 99-46-341-536</span>
+                        <br />
+				     <span><i class="fa fa-envelope-o"> </i> E-Mail: sharookcs@gmail.com </span>
+                        <br />
+				</div>
+			<br />
+				<div id="social-icon">
+					<a href="http://facebook.com/sharook.srk.9/"><i class="fa fa-facebook fa-2x"></i></a>
+					<a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+					<a href="https://www.linkedin.com/in/sharooka-267b91109"><i class="fa fa-linkedin fa-2x"></i></a>
+					<a href="#"><i class="fa fa-google-plus fa-2x"></i></a>				
+				</div>
+		 
+            
+                
+            		</div>
+      			</div>
+
+		<div class="col-md-12">
+                	<h4> Features of this site will be enhanced in future</h4>
+		</div>
+	</section>
+
+
+
+	<!--footer Section -->
+	<div  class="for-full-back "  id="footer" >
+		&copy; 2017 www.sharook.pythonanywhere.com | All Right Reserved      
+	</div>
+
+	<!--End footer Section -->
+
+
+
+	<script src="{% static 'assets/js/classie.js' %}"></script>
+	<script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+	<script src="{% static 'assets/js/jquery.stellar.min.js' %}"></script>
+    	<script src="{% static 'assets/js/smoothscroll.js' %}"></script>
+	<script src="{% static 'assets/js/fancybox/jquery.fancybox.js' %}"></script>    
+	<script src="{% static 'assets/js/main.js' %}"></script>
+
+
+	<script>
+		$(function(){
+			$.stellar({
+				horizontalScrolling: false,
+				verticalOffset: 20
+			});
+		});
+		</script>
+
+		
+	<script type="text/javascript">
+      		$(function() {
+        		//    fancybox
+          		jQuery(".fancybox").fancybox();
+      		});
+	</script>
+
+
+	<!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+	<!-- CORE JQUERY  -->
+	<!--<script src="{% static 'assets/plugins/jquery-1.10.2.js' %}"></script> -->
+
+        <!-- BOOTSTRAP CORE SCRIPT   -->
+	<script src="{% static 'assets/plugins/bootstrap.js' %}"></script>
+
+	<!-- VEGAS SLIDESHOW SCRIPTS -->
+	<script src="{% static 'assets/plugins/vegas/jquery.vegas.min.js' %}"></script> <!-- background slideshow -->
+
+	<!-- CUSTOM SCRIPTS -->
+	<script src="{% static 'assets/js/custom.js' %}"></script> <!--background images set -->
+
+<script type="text/javascript">
+    DJANGO_STATIC_URL = '{{ STATIC_URL }}';
+</script>
+
+    
+</body>
+</html>
